@@ -10,7 +10,7 @@
   <li>Copy isi dari file supervisord.conf ke /etc/supervisord.conf, untuk ubuntu copy isi file ke /etc/supervisor/supervisord.conf</li>
   <b>(SALIN ISI FILENYA SAJA JANGAN COPY FILENYA KARENA ISINYA BEDA, YANG DI GITHUB CUMA TAMBAHAN)</b>
   <li>Untuk CentOS setelah langkah 7 jalankan command: systemctl enable supervisord dan systemctl start supervisord</li>
-  <li>Cek apakah supervisord sudah berjalan: systemctl status supervisord</li>
+  <li>Cek apakah supervisord sudah berjalan: systemctl status supervisord atau systemctl status supervisor</li>
 </ol>
 
 <b> note: Supervisor hanya digunakan untuk program cpu dan memory usage, untuk otomatisasi disk usage disini menggunakan cronjobs. </b>
