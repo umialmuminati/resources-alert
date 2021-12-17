@@ -1,0 +1,1 @@
+*/10 * * * * python3 /home/edrumi/resources-alert/disk-alert.py >> /home/edrumi/resources-alert/log/disk-alert_log.log 2>&1
