@@ -9,8 +9,8 @@
 (SALIN ISI FILENYA SAJA JANGAN COPY FILENYA KARENA ISINYA BEDA, YANG DI GITHUB CUMA TAMBAHAN)
 9. Untuk CentOS setelah langkah 7 jalankan command: systemctl enable supervisord dan systemctl start supervisord
 10. Cek apakah supervisord sudah berjalan: systemctl status supervisord
-Supervisor hanya digunakan untuk program cpu dan memory usage, untuk otomatisasi disk usage disini menggunakan cronjobs.<br> 
-<h1> Berikut cara melakukan setup untuk cronjobs: </h1>
+Supervisor hanya digunakan untuk program cpu dan memory usage, untuk otomatisasi disk usage disini menggunakan cronjobs.
+Berikut cara melakukan setup untuk cronjobs: 
 1. Konfigurasi cronjobs ada di file crontab.txt, salin isi dari file tersebut dan paste-kan di crontab
 2. Caranya adalah dengan command: crontab -e
 3. Kemudian tinggal di paste-kan saja.
